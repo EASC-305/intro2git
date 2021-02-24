@@ -128,7 +128,7 @@ git add project.py
 
 Finally lets commit the changes and describe what we did:
 ```bash
-git commit -m "I' ve added a line to print the date before the time. Progress...."
+git commit -m "I' ve added a line to print the time after the date. Progress...."
 ```
 
 > ```
@@ -160,11 +160,11 @@ git diff HEAD~1 project.py
 
 >```bash
 > diff --git a/project.py b/project.py
-index 322eb3c..42eadc0 100644
---- a/project.py
-+++ b/project.py
-@@ -5,3 +5,4 @@ import datetime
- currentDT = datetime.datetime.now()  
+>index 322eb3c..42eadc0 100644
+> --- a/project.py
+> +++ b/project.py
+> @@ -5,3 +5,4 @@ import datetime
+>  currentDT = datetime.datetime.now()  
 >
 > print('The date is: {}'.format(currentDT.strftime("%Y-%m-%d")))  
 > +print('The time is: {}'.format(currentDT.strftime("%I:%M:%S %p")))
@@ -173,7 +173,7 @@ index 322eb3c..42eadc0 100644
 This is just the begging of what you can do with `git`! For more indepth tutorials
 please see below
 
-__Resources__: 
+__Resources__:
 
 1. [Git & GitHub Tutorial for Scientists](https://gitbookdown.dallasdatascience.com/)
 
