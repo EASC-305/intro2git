@@ -1,6 +1,6 @@
 ## A Quick intro to `git`
 
-Lets Initialize our Repository:
+Lets Initialize our repository:
 ```bash
 git init mini_project
 ```
@@ -44,7 +44,7 @@ git status
 
 Great. Now lets commit so our changes are tracked/logged by `git`. We'll want to
 add a commit message (`-m`)that describes what we did: s
-```
+```bash
 git commit -m "My first commit. I've started the project.py file and begun by just printing the date. More to come\!"
 ```
 
@@ -73,11 +73,11 @@ git add. project.py
 
 
 Finally lets commit the changes and describe what we did:
-```bash commit -m "I' ve added a line to print the date before the time. Progress...."
-
+```bash
+bash commit -m "I' ve added a line to print the date before the time. Progress...."
 ```
 
-Let's see  the status of our repo
+Let's see  the status of our repo:
 ```bash
 git status
 ```
