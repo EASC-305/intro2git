@@ -6,7 +6,7 @@ __Andrew Nolan__ (He/Him)
 ### Demo material:  
 - The slides for the talk can be found in the [`intro2git&github.ipynb`](https://github.com/EASC-305/intro2git/blob/main/intro2git%26github.ipynb) notebook.  A rendered version of the slides can be found [here](https://nbviewer.jupyter.org/github/EASC-305/intro2git/blob/main/intro2git%26github.ipynb).
 
-- The commands used in the live `git` demo are recorded in [`gitdemo.md`]().
+- The commands used in the live `git` demo are recorded in [`gitdemo.md`](https://github.com/EASC-305/intro2git/blob/main/gitdemo.md).
 
 ### Software requirements for the live demo:
 - Access to the command line. Shouldn't be a problem on OSX or Linux. For Windows see `git` installation instructions about [`Git Bash`](https://gitforwindows.org/).
